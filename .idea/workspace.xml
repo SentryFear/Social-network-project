@@ -26,11 +26,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbd2cc68-3a6d-470c-b543-2233d1d3e80e" name="Default Changelist" comment="add test profile">
-      <change afterPath="$PROJECT_DIR$/src/hoc/withSuspense.js" afterDir="false" />
+    <list default="true" id="dbd2cc68-3a6d-470c-b543-2233d1d3e80e" name="Default Changelist" comment="upload photo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +134,7 @@
       <workItem from="1588344274595" duration="436000" />
       <workItem from="1588352825738" duration="660000" />
       <workItem from="1588447526142" duration="12945000" />
-      <workItem from="1591239991968" duration="1548000" />
+      <workItem from="1591239991968" duration="2630000" />
     </task>
     <task id="LOCAL-00001" summary="add test profile">
       <created>1591241437598</created>
@@ -140,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591241437598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="react lazy">
+      <created>1591242169931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591242169931</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +182,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add test profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test profile" />
+    <MESSAGE value="react lazy" />
+    <MESSAGE value="upload photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload photo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="528" y="269" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586955069261">
