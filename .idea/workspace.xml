@@ -19,23 +19,17 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbd2cc68-3a6d-470c-b543-2233d1d3e80e" name="Default Changelist" comment="update profile info">
-      <change afterPath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileDataForm.jsx" afterDir="false" />
+    <list default="true" id="dbd2cc68-3a6d-470c-b543-2233d1d3e80e" name="Default Changelist" comment="add captcha">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login/Login.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +130,7 @@
       <workItem from="1588344274595" duration="436000" />
       <workItem from="1588352825738" duration="660000" />
       <workItem from="1588447526142" duration="12945000" />
-      <workItem from="1591239991968" duration="3720000" />
+      <workItem from="1591239991968" duration="4157000" />
     </task>
     <task id="LOCAL-00001" summary="add test profile">
       <created>1591241437598</created>
@@ -159,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591243099441</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update profile info">
+      <created>1591248127808</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591248127808</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +177,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -194,7 +195,8 @@
     <MESSAGE value="react lazy" />
     <MESSAGE value="upload photo" />
     <MESSAGE value="update profile info" />
-    <option name="LAST_COMMIT_MESSAGE" value="update profile info" />
+    <MESSAGE value="add captcha" />
+    <option name="LAST_COMMIT_MESSAGE" value="add captcha" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591247845994">
@@ -230,10 +232,10 @@
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591241004525" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/51.23.1629.1027@51.23.1629.1027" timestamp="1586188969116" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1591241439787">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1591248170533">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591241439787" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591248170533" />
     <state x="565" y="374" key="com.intellij.ide.util.TipDialog" timestamp="1586957745818">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
