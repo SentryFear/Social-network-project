@@ -26,18 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd2cc68-3a6d-470c-b543-2233d1d3e80e" name="Default Changelist" comment="add captcha">
-      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/app-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/app-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/auth-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/dialogs-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/sidebar-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/users-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users-selectors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileStatus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Users/Users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Users/UsersContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/common/Paginator/Paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/common/Paginator/Paginator.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,7 @@
       <workItem from="1588352825738" duration="660000" />
       <workItem from="1588447526142" duration="12945000" />
       <workItem from="1591239991968" duration="4382000" />
-      <workItem from="1591251998492" duration="5642000" />
+      <workItem from="1591251998492" duration="10725000" />
     </task>
     <task id="LOCAL-00001" summary="add test profile">
       <created>1591241437598</created>
@@ -180,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591248594360</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="migrated reducers to TS">
+      <created>1591326660098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591326660098</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,10 +259,10 @@
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591254679759" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/51.23.1629.1027@51.23.1629.1027" timestamp="1586188969116" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1591248709776">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1591326678813">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591248709776" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591326678813" />
     <state x="565" y="374" key="com.intellij.ide.util.TipDialog" timestamp="1586957745818">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
