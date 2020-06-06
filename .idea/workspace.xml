@@ -27,7 +27,13 @@
   <component name="ChangeListManager">
     <list default="true" id="dbd2cc68-3a6d-470c-b543-2233d1d3e80e" name="Default Changelist" comment="add captcha">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/app-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/app-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/auth-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/auth-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/dialogs-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/dialogs-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redux/users-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +139,7 @@
       <workItem from="1588352825738" duration="660000" />
       <workItem from="1588447526142" duration="12945000" />
       <workItem from="1591239991968" duration="4382000" />
-      <workItem from="1591251998492" duration="13061000" />
+      <workItem from="1591251998492" duration="21387000" />
     </task>
     <task id="LOCAL-00001" summary="add test profile">
       <created>1591241437598</created>
@@ -184,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591353373425</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="migrated actions to TS">
+      <created>1591402280132</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591402280132</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +236,9 @@
     <MESSAGE value="add captcha" />
     <MESSAGE value="migrated reducers to TS" />
     <MESSAGE value="migrated components to TS" />
-    <option name="LAST_COMMIT_MESSAGE" value="migrated components to TS" />
+    <MESSAGE value="migrated actions to TS" />
+    <MESSAGE value="migrated api to TS" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrated api to TS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591247845994">
@@ -259,10 +274,10 @@
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591254679759" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/51.23.1629.1027@51.23.1629.1027" timestamp="1586188969116" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1591326678813">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1591402298688">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591326678813" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591402298688" />
     <state x="565" y="374" key="com.intellij.ide.util.TipDialog" timestamp="1586957745818">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -276,9 +291,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585428372777" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1591252474094">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1591451747099">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1591252474094" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1591451747099" />
   </component>
 </project>
