@@ -27,15 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dbd2cc68-3a6d-470c-b543-2233d1d3e80e" name="Default Changelist" comment="add captcha">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/users-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users-selectors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Profile/ProfileInfo/ProfileStatus.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Users/Users.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Users/UsersContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/common/Paginator/Paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/common/Paginator/Paginator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/users-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +133,7 @@
       <workItem from="1588352825738" duration="660000" />
       <workItem from="1588447526142" duration="12945000" />
       <workItem from="1591239991968" duration="4382000" />
-      <workItem from="1591251998492" duration="10725000" />
+      <workItem from="1591251998492" duration="13061000" />
     </task>
     <task id="LOCAL-00001" summary="add test profile">
       <created>1591241437598</created>
@@ -185,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591326660098</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="migrated components to TS">
+      <created>1591353373425</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591353373425</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +222,8 @@
     <MESSAGE value="update profile info" />
     <MESSAGE value="add captcha" />
     <MESSAGE value="migrated reducers to TS" />
-    <option name="LAST_COMMIT_MESSAGE" value="migrated reducers to TS" />
+    <MESSAGE value="migrated components to TS" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrated components to TS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591247845994">
