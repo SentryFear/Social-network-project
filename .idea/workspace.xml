@@ -26,14 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd2cc68-3a6d-470c-b543-2233d1d3e80e" name="Default Changelist" comment="add captcha">
+      <change afterPath="$PROJECT_DIR$/src/component/common/FormsControls/FormsControls.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/app-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/app-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/auth-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/auth-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/dialogs-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/dialogs-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/profile-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/profile-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/users-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/common/FormsControls/FormsControls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validators/validators.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +138,8 @@
       <workItem from="1588352825738" duration="660000" />
       <workItem from="1588447526142" duration="12945000" />
       <workItem from="1591239991968" duration="4382000" />
-      <workItem from="1591251998492" duration="21387000" />
+      <workItem from="1591251998492" duration="21404000" />
+      <workItem from="1591451817845" duration="5640000" />
     </task>
     <task id="LOCAL-00001" summary="add test profile">
       <created>1591241437598</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591402280132</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="migrated api to TS">
+      <created>1591451755677</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591451755677</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,30 +261,30 @@
     </state>
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1591241282497" />
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/48.23.1632.1027@48.23.1632.1027" timestamp="1591241340529" />
-    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1591254679759">
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1591451769248">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1591254679759" />
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1591451769248" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/51.23.1629.1027@51.23.1629.1027" timestamp="1586188969116" />
-    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1591254679758">
+    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1591451769246">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1591254679758" />
+    <state width="1659" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1591451769246" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/51.23.1629.1027@51.23.1629.1027" timestamp="1586188969115" />
-    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1591254679758">
+    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1591451769245">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1591254679758" />
+    <state width="1659" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1591451769245" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/51.23.1629.1027@51.23.1629.1027" timestamp="1586188969114" />
-    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1591254679759">
+    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1591451769247">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591254679759" />
+    <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591451769247" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/51.23.1629.1027@51.23.1629.1027" timestamp="1586188969116" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1591402298688">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1591452262929">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591402298688" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591452262929" />
     <state x="565" y="374" key="com.intellij.ide.util.TipDialog" timestamp="1586957745818">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
