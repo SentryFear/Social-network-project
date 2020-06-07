@@ -26,13 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd2cc68-3a6d-470c-b543-2233d1d3e80e" name="Default Changelist" comment="add captcha">
-      <change afterPath="$PROJECT_DIR$/src/component/common/FormsControls/FormsControls.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/common/FormsControls/FormsControls.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validators/validators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/redux-store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/redux-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redux/users-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/users-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +136,7 @@
       <workItem from="1588447526142" duration="12945000" />
       <workItem from="1591239991968" duration="4382000" />
       <workItem from="1591251998492" duration="21404000" />
-      <workItem from="1591451817845" duration="5640000" />
+      <workItem from="1591451817845" duration="8267000" />
     </task>
     <task id="LOCAL-00001" summary="add test profile">
       <created>1591241437598</created>
@@ -204,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591451755677</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="migrated formcontrols to TypeScript">
+      <created>1591505621668</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591505621669</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +249,8 @@
     <MESSAGE value="migrated components to TS" />
     <MESSAGE value="migrated actions to TS" />
     <MESSAGE value="migrated api to TS" />
-    <option name="LAST_COMMIT_MESSAGE" value="migrated api to TS" />
+    <MESSAGE value="migrated formcontrols to TypeScript" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrated formcontrols to TypeScript" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591247845994">
@@ -281,10 +286,10 @@
     </state>
     <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1591451769247" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/51.23.1629.1027@51.23.1629.1027" timestamp="1586188969116" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1591452262929">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1591505634606">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591452262929" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1591505634606" />
     <state x="565" y="374" key="com.intellij.ide.util.TipDialog" timestamp="1586957745818">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
