@@ -1,6 +1,11 @@
 import React from 'react';
 
-let Post = (props) => {
+type PropsType = {
+    message: string
+    likesCount: number
+}
+
+let Post: React.FC<PropsType> = (props) => {
 
 
     return (

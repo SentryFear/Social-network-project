@@ -10,11 +10,21 @@ import {connect} from "react-redux";
 import {initializeApp} from "./Redux/app-reducer";
 import Preloader from "./component/common/Preloader/Preloader";
 import {withSuspense} from "./hoc/withSuspense";
+import {AppStateType} from "./Redux/redux-store";
 
 const DialogsContainer = React.lazy(() => import('./component/Dialogs/DialogsContainer'));
 const ProfileContainer = React.lazy(() => import('./component/Profile/ProfileContainer'));
 
-class App extends React.Component {
+type MapPropsType = ReturnType<typeof mapStateToProps>
+
+type DispatchPropsType = {
+    initializeApp: () => void
+}
+
+const SuspendedDialog = withSuspense(DialogsContainer)
+const SuspendedProfile = withSuspense(ProfileContainer)
+
+class App extends React.Component<MapPropsType & DispatchPropsType> {
     componentDidMount() {
         this.props.initializeApp();
     }
@@ -30,10 +40,10 @@ class App extends React.Component {
                 <Navbar/>
                 <div className='app-wrapper-content'>
                     <Route path='/dialogs'
-                           render={withSuspense(DialogsContainer)}/>
+                           render={() => <SuspendedDialog /> }/>
 
                     <Route path='/profile/:userId?'
-                           render={withSuspense(ProfileContainer)}/>
+                           render={() => <SuspendedProfile /> }/>
 
                     <Route path='/users'
                            render={() => <UsersContainer pageTitle={"Самураи"}/>}/>
@@ -47,10 +57,10 @@ class App extends React.Component {
     }
 }
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = (state: AppStateType) => ({
     initialized: state.app.initialized
 })
 
-export default compose(
+export default compose<React.ComponentType>(
     withRouter,
     connect(mapStateToProps, {initializeApp}))(App);
